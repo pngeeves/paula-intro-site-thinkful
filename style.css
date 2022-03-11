@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  background-image: url("la-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+/*set the background image so it stayed fixed as you scroll down - also the image is from a free domaign. */
+header {
+  text-align:left;
+  padding:10px;
+  line-height: 0.8;
+  text-indent: 40px;
+  background-color: #d5c6e0;
+}
+
+.navbar { 
+  width:100%;
+  height: 40px;
+}
+.navbar li{
+  list-style-type: none;
+}
+/* removed th bulled points in the navigtion */
+.navbar a{
+  float: left;
+  padding: 10px;
+  color: #192a51;
+  text-align: left;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover {
+  background-color: #aaa1c8;
+  color: black;
+  opacity:70%;
+}
+
+img{
+border-radius: 8px;
+}
+/*round the edges on the image*/
+center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1{
+  font-family: Verdana, Arial;
+  font-size: 40px;
+  color: #192a51;
+}
+html{
+  font-family: Verdana, Arial;
+  font-size: 15px;
+}
+h2, h3{
+  font-family: Verdana, Arial;
+  font-size: 20px
+}
+p {
+  font-family: Verdana, Arial;
+  font-size: 15px;
+  line-height: 25px;
+  backgtround-color: #d5c6e0;
+}
+
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f5e6e8;
+}
+/*round the edges on the sections*/
+hr{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  height: 1px;
+  background-color: #192a51;
+  opacity: 50%;
+}
+/*to make sure all the margin and spacing on the line matched the sections*/
+.list{
+  line-height: 30px;
+}
+/* I didn't want formating for the outside of work and contact to affect the nav bar so I set them in a different class */
+ol a:link    { color: #192a51; }
+ol a:visited { color: #aaa1c8; }
+ol a:hover   { color: #967AA1; }
+ol a:active  { color: #ff5d8f; }
+
+ol a{
+  font-size: 19px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #aaa1c8;
+  text-align:center;
+  padding: 7px;
+  line-height: 0.8;
+  text-indent: 25px;
+  margin-top: 3%;
+}
+
+footer p{
+  color: white;
+  font-size: 10px;
+}
