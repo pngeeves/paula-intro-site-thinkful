@@ -37,7 +37,10 @@ header {
   opacity:70%;
 }
 
-img{
+img{ 
+display: block;
+margin-left: auto;
+margin-right: auto;
 border-radius: 8px;
 }
 /*round the edges on the image*/
@@ -68,7 +71,7 @@ p {
   backgtround-color: #d5c6e0;
 }
 
-section {
+article {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 3%;
@@ -110,6 +113,6 @@ footer {
 }
 
 footer p{
-  color: white;
-  font-size: 10px;
+  color: black;
+  font-size: 15px;
 }

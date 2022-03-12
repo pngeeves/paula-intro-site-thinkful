@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en-US">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -8,6 +8,7 @@
   </head>
   
   <body>
+    
     <header>
 		  <h1>Paula Geeves-Booth</h1>
       <h3>Software Developer</h3>
@@ -16,56 +17,51 @@
     <div class = "navbar">
       <nav>
         <ul> 
-          <li><a href ="#About_Me">About Me</a></li>
-          <li><a href="#Outside_Of_Work">Outside Of Work</a></li>
+          <li><a href ="#Introduction">Introduction</a></li>
+          <li><a href="#About_Me">About Me</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
     </div>
 <!--set navigation for the webpage so you can jump to different sections -->
-   <center> <img src="paula-pic.png" alt="Paula Geeves-Booth" width="250" height="365"></center>
-    <!--I was having trouble centering the image and fell on this, if there's a better or more appropriate way please let me know.-->
+   <img src="paula-pic.png" alt="Paula Geeves-Booth" width="250" height="365">
+    
     <main>
         <article>
-          <section>
             <header>
-               <h2 id="About_Me">About Me</h2>
+               <h2 class = "section-heading" id="Introduction">Introduction</h2>
             </header>
-            <p>I am a software development student that is based in both West New York, New Jersey and Los Angeles, California.</p>
-            
-            <p> After graduating college, I worked as a video game consoles and accessories buyer for Walmart. In that time, I was able to get first hand experience working with the site engineering team and became increasingly interested in both the front side of page building for new releases, as well as the back end fixes for the continuous stream of issues the site faced.</p>
+            <p>I am a video game corperate buyer and software development student that is based in both West New York, New Jersey and Los Angeles, California.</p>             </article>          
+
+<hr>
+      
+    
+  <article>
+        <header> 
+            <h2 class = "section-heading" id="About_Me">About Me</h2>
+        </header>
+          <p> After graduating college, I worked as a video game consoles and accessories buyer for Walmart. In that time, I was able to get first hand experience working with the site engineering team and became increasingly interested in both the front side of page building for new releases, as well as the back end fixes for the continuous stream of issues the site faced.</p>
              
             <p> However, from the beginning I realized that the business side of the industry didn’t align with my passions and my focus kept on going back to site engineering. </p>
     
             <p> As a student of Thinkful, I feel that I have finally found my passion and have enjoyed every minute of it! </p>
-          </section>
-        </article>
-     
-
-<hr>
-      
-    <section>
-      <article>
-          <header> 
-            <h2 id="Outside_Of_Work">Outside Of Work</h2>
-          </header>
-        <p>Outside of work you can normally find me: </p>
-         <div class = "list">
+    
+    <p>Outside of work you can normally find me: </p>
+        <div class = "list">
           <ul>
             <li>Watching Premier League Football every weekend </li>
             <li>Trying out new recipes and cooking techniques.</li>
             <li>Singing at the top of my lungs with hopefully no noise complaints.</li>
-           </ul>
+          </ul>
         </div>
       </article>
-    </section>
+    
 
 <hr>
-      
-    <section>
+         
       <article>
           <header>
-            <h2 id="Contact">Contact</h2>
+            <h2 class = "section-heading" id="Contact">Contact</h2>
           </header>
             <div class = "list">
               <ol>
@@ -74,13 +70,10 @@
               </ol>
         </div>
       </article>
-    </section>
   </main>
 
   <footer>
-      <div>
-          <p>@paulageevesbooth</p>
-      </div>
+       <p>@paulageevesbooth</p>
   </footer>
     
     <script src="script.js"></script>
